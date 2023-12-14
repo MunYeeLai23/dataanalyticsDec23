@@ -11,8 +11,4 @@ if show:
     'Students': ['John', 'Lofa', 'Siti', 'Amy'],
     'Attendance Status': ['yes', 'yes', 'yes', 'no']
     }))
-    
-st.write(pd.DataFrame({
-    'Students': ['John', 'Lofa', 'Siti', 'Amy'],
-    'Attendance Status': ['yes', 'yes', 'yes', 'no']
-}))
+
