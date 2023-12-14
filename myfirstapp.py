@@ -9,10 +9,6 @@ option = st.sidebar.selectbox(
     'Select a mini project',
      ['line chart','map','T n C','Long Process'])
 
-option = st.sidebar.selectbox(
-    'Select a mini project',
-     ['line chart','map','T n C'])
-
 if option=='line chart':
     chart_data = pd.DataFrame(
       np.random.randn(20, 3),
